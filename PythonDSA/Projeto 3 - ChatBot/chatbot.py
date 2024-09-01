@@ -1,7 +1,7 @@
 import openai
 
 # Substitua pela sua chave API
-openai.api_key = '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'
+openai.api_key = ''
 
 def gera_texto(texto):
     response = openai.ChatCompletion.create(
